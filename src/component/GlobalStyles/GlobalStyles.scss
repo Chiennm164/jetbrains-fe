@@ -1,0 +1,129 @@
+@import "normalize.css";
+@import "~bootstrap/scss/bootstrap";
+
+:root {
+  --wt-color-white: #fff;
+  --wt-color-white-60: hsla(0, 0%, 100%, 0.6);
+  --wt-color-white-30: hsla(0, 0%, 100%, 0.3);
+  --wt-color-white-20: hsla(0, 0%, 100%, 0.2);
+  --wt-color-white-10: hsla(0, 0%, 100%, 0.1);
+  --wt-color-white-5: hsla(0, 0%, 100%, 0.05);
+  --wt-color-dark: #27282c;
+  --wt-color-dark-70: rgba(39, 40, 44, 0.7);
+  --wt-color-dark-40: rgba(39, 40, 44, 0.4);
+  --wt-color-dark-20: rgba(39, 40, 44, 0.2);
+  --wt-color-dark-5: rgba(39, 40, 44, 0.05);
+  --wt-color-grey: #3c3d40;
+  --wt-color-grey-light: #f4f4f4;
+  --wt-color-grey-dark: #323236;
+  --wt-color-primary-light-theme: #167dff;
+  --wt-color-primary-light-theme-80: rgba(22, 125, 255, 0.8);
+  --wt-color-primary-light-theme-20: rgba(22, 125, 255, 0.2);
+  --wt-color-primary-dark-theme: #4ca6ff;
+  --wt-color-primary-dark-theme-80: rgba(76, 166, 255, 0.8);
+  --wt-color-primary-dark-theme-20: rgba(76, 166, 255, 0.2);
+  --wt-color-error: #ef341e;
+  --wt-color-success: #4dbb5f;
+  --wt-color-warning: #f3c033;
+}
+:root {
+  --wt-font-family-gotham: "Gotham SSm A", "Gotham SSm B", system-ui,
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  --wt-font-family-system: system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Droid Sans",
+    "Helvetica Neue", Arial, sans-serif;
+  --wt-font-family-mono: SFMono-Regular, Consolas, "Liberation Mono", Menlo,
+    Courier, monospace;
+  --wt-font-weight-black: 900;
+  --wt-font-weight-bold: 700;
+  --wt-font-weight-light: 300;
+}
+@font-face {
+  font-family: JetBrains Sans;
+  src: url(https://resources.jetbrains.com/storage/jetbrains-sans/JetBrainsSans-Light.woff2)
+      format("woff2"),
+    url(https://resources.jetbrains.com/storage/jetbrains-sans/JetBrainsSans-Light.woff)
+      format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: JetBrains Sans;
+  src: url(https://resources.jetbrains.com/storage/jetbrains-sans/JetBrainsSans-Regular.woff2)
+      format("woff2"),
+    url(https://resources.jetbrains.com/storage/jetbrains-sans/JetBrainsSans-Regular.woff)
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: JetBrains Sans;
+  src: url(https://resources.jetbrains.com/storage/jetbrains-sans/JetBrainsSans-SemiBold.woff2)
+      format("woff2"),
+    url(https://resources.jetbrains.com/storage/jetbrains-sans/JetBrainsSans-SemiBold.woff)
+      format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@supports (font-variation-settings: normal) {
+  @font-face {
+    font-family: JetBrains Sans;
+    src: url(https://resources.jetbrains.com/storage/jetbrains-sans/JetBrainsSans.woff2)
+        format("woff2 supports variations"),
+      url(https://resources.jetbrains.com/storage/jetbrains-sans/JetBrainsSans.woff2)
+        format("woff2-variations"),
+      url(https://resources.jetbrains.com/storage/jetbrains-sans/JetBrainsSans.woff)
+        format("woff-variations");
+    font-weight: 100 900;
+    font-style: normal;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: var(--wt-font-family-system);
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  font-weight: 400;
+  background-color: var(--wt-color-dark);
+}
+
+a {
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+div{
+  display: block;
+}
+.main-btn{
+
+}
+.main-title-l {
+
+}
+.main-title-m {
+
+}
+.main-title-s {
+
+}
+.main-des-l{
+
+}
+.main-des-m{
+
+}
+.main-des-s{
+
+}

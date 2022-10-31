@@ -1,0 +1,29 @@
+.logo {
+  width: 72px;
+  height: 72px;
+}
+.item-nav {
+  font-size: 19px;
+  line-height: 28px;
+  color: var(--wt-color-white);
+  text-align: center;
+  padding: 0 20px;
+  opacity: 0.6;
+font-weight: 400;
+}
+.item-link{
+     opacity: 0.6;
+     color: var(--wt-color-white);
+     width: 24px;
+     height: 24px;
+     min-width: 24px;
+     min-height: 24px;
+     padding: 8px;
+     font-weight: 400;
+
+}
+.item-link svg{
+     width: 24px;
+     height: 24px;
+     line-height: 24px;
+}
