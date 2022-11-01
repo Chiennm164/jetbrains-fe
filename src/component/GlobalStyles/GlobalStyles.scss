@@ -100,30 +100,82 @@ body {
 a {
   text-decoration: none;
 }
-li{
+li {
   list-style: none;
 }
-div{
-  display: block;
+p {
+  padding: 0;
+  margin: 0;
 }
-.main-btn{
 
+.main-btn {
+}
+
+.main-title-xl,
+.main-title-l,
+.main-title-m,
+.main-title-s,
+.main-title-sm {
+  font-family: var(
+    --rs-font-family-headers,
+    var(
+      --rs-font-family-jb-sans,
+      "JetBrains Sans",
+      Inter,
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      Roboto,
+      Oxygen,
+      Ubuntu,
+      Cantarell,
+      "Droid Sans",
+      "Helvetica Neue",
+      Arial,
+      sans-serif
+    )
+  );
+}
+
+.main-title-xl {
+  font-size: 43px;
 }
 .main-title-l {
-
+  font-size: 35px;
 }
 .main-title-m {
-
+  font-size: 29px;
 }
 .main-title-s {
-
+  font-size: 20px;
 }
-.main-des-l{
-
+.main-title-sm {
+  font-size: 19px;
+  font-weight: 400;
 }
-.main-des-m{
-
+.main-des-l {
 }
-.main-des-s{
+.main-des-m {
+  font-size: 19px;
+}
+.main-des-s {
+  color: var(--rs-typography-color-average, hsla(0, 0%, 100%, 0.7));
+}
 
+.btn-a-l {
+  text-decoration: none;
+  padding: 12px 32px;
+  background-color: #fff;
+  border-radius: 32px;
+  width: auto;
+  color: #19191c;
+}
+.btn-a-m {
+  text-decoration: none;
+  padding: 7px 23px;
+  border-radius: 32px;
+  border: 1px solid hsla(0, 0%, 100%, 0.3);
+  width: auto;
+  color: #fff;
 }

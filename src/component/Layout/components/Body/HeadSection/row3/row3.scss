@@ -1,0 +1,62 @@
+.banner-l {
+     background-color: red;
+     background: url(https://www.jetbrains.com/img/banners-home-page/bg-on-premises.svg)
+       center / cover no-repeat;
+     background-size: 580px;
+     background-position: right -10px bottom -230px;
+     padding: 24px 28px;
+     border-radius: 16px;
+     background-color: #000;
+
+     svg {
+       width: 96px;
+       height: 96px;
+       margin-bottom: 26px;
+     }
+     h1 {
+       margin-bottom: 24px;
+     }
+     p {
+       margin-bottom: 48px;
+     }
+   }
+   .banner-r {
+     padding: 0 16px;
+
+     .banner-r-up {
+       background-color: #0c0c0d;
+       background-image: url(https://www.jetbrains.com/img/banners-home-page/dot-net-days_bg.png);
+       background-size: 158px;
+       background-position: bottom -8px right -16px;
+       background-repeat: no-repeat;
+       padding: 16px;
+       border-radius: 16px;
+       h3 {
+         padding-bottom: 8px;
+       }
+       p {
+         padding-bottom: 16px;
+       }
+     }
+
+     .banner-r-down {
+       padding: 16px;
+       border-radius: 16px;
+       background: linear-gradient(
+         73.6deg,
+         #771f89 -90.51%,
+         #834cef 182.69%,
+         #636cea 182.72%
+       );
+       h3 {
+         padding-bottom: 12px;
+       }
+       p {
+         padding-bottom: 32px;
+       }
+       svg {
+         width: 64px;
+         height: 64px;
+       }
+     }
+   }
