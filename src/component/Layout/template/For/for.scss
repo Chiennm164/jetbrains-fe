@@ -5,8 +5,12 @@
       padding-bottom: 5px;
       align-items: center;
       margin-bottom: 10px;
-      border-bottom: 1px solid #ccc;
+      border-bottom: 2px solid #ccc;
 
+      &:hover {
+        border-bottom: 2px solid #fff;
+        cursor: pointer;
+      }
       .icon {
         margin-right: 5px;
         svg {

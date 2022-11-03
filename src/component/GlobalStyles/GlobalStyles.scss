@@ -108,7 +108,20 @@ p {
   margin: 0;
 }
 
-.main-btn {
+.hover-btn:hover {
+  color: #19191c;
+  color: var(--rs-rock-button-text-color, #19191c);
+  background-color: hsla(0, 0%, 100%, 0.8);
+  background-color: var(
+    --rs-rock-button-hover-bg-color,
+    hsla(0, 0%, 100%, 0.8)
+  );
+}
+// .main-btn {
+// }
+.boder-bottom-hover:hover {
+
+  border-bottom: 2px solid #fff;
 }
 
 .main-title-xl,

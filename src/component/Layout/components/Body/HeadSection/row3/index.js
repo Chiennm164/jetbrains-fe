@@ -25,7 +25,7 @@ return (
                          Have full control over your data in a
                          <br /> secure environment.
                     </p>
-                    <a className="btn-a-l" href="." > Learn More</a>
+                    <a className="btn-a-l hover-btn" href="." > Learn More</a>
                </div>
           </div>
      </div>
@@ -41,7 +41,7 @@ return (
                               <p className="main-des-s">
                                    Free virtual event, October 25—27
                               </p>
-                              <a href="." className="btn-a-m">Register</a>
+                              <a href="." className="btn-a-m hover-btn">Register</a>
                          </div>
 
                     </div>
@@ -57,7 +57,7 @@ return (
                                         <br /> education in the hands of your
                                         <br /> institution.
                                    </p>
-                                   <a href="." className="btn-a-m" > Learn More</a>
+                                   <a href="." className="btn-a-m hover-btn" > Learn More</a>
                               </div>
                               <div className="col-3">
                                    <svg viewBox="0 0 70 70" aria-label="JetBrains Academy">

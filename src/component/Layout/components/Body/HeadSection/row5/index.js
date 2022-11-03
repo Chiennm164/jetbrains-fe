@@ -19,9 +19,9 @@ function Row5(params) {
      return (
           <div className='group-btn'>
                <div className='row pt-5 pb-lg-5'>
-                    <div className='col-8'>
+                    <div className='col-8 d-flex flex-wrap'>
                          {arr.map((ar, i) => {
-                              return <a key={i} className="sub-a" href=".">{ar} </a>
+                              return <a key={i} className="sub-a hover-btn" href=".">{ar} </a>
                          })}
                     </div>
                </div>
